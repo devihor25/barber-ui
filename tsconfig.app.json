@@ -25,6 +25,11 @@
     "noUncheckedSideEffectImports": true
   },
   // "include": ["src"]
- "include": ["src", "src/types", ".storybook"]
-  
+ "include": ["src", "src/types", ".storybook"],
+ "exclude": [
+    "node_modules",
+    "dist",
+    "**/*.stories.ts",
+    "**/*.stories.tsx"
+  ]
 }

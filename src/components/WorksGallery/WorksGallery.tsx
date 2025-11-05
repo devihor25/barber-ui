@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 type Work = {
-  id: number;
+  id: string | number;
   image: string;
   title?: string;
 };

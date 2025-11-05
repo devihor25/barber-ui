@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 type Service = {
-  id: number;
+  id: string | number;
   title: string;
   description: string;
   duration: string;

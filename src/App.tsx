@@ -33,7 +33,6 @@
 // }
 
 // export default App
-import React from "react";
 import ProfilePage from "./pages/ProfilePage";  // Import the Profile Page
 
 function App() {

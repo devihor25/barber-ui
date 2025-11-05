@@ -73,11 +73,6 @@ const ServicesContainer = styled.div`
   flex-direction: column;
   gap: 16px;
 `;
-const NoOverflow = styled.div`
-  width: 100%;
-  min-width: 0;
-  overflow: hidden; /* keeps sliders/grids from forcing horizontal scroll */
-`;
 const ImageWrapper = styled.div`
   position: relative;
 `;
