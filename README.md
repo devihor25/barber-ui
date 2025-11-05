@@ -1,73 +1,53 @@
-# React + TypeScript + Vite
+# 🪒 Barber UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, responsive **barber portfolio & booking UI** built with **React (Vite)**, **Styled Components**, and **Storybook**.  
+Includes reusable components for services, testimonials, FAQs, and gallery sections — perfect for barbershop or salon websites.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Tech Stack
+- ⚛️ **React + Vite** — lightning-fast dev & build setup  
+- 💅 **Styled Components** — CSS-in-JS for clean, scoped styles  
+- 🎨 **Storybook** — isolated component development & documentation  
+- 🧰 **TypeScript** — type safety and maintainability  
+- 📦 **ESLint + Prettier** — code quality and formatting  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📂 Project Structure
 
-## Expanding the ESLint configuration
+barber-ui/
+├── public/ # static assets (icons, images, etc.)
+├── src/
+│ ├── assets/ # fonts, images, icons
+│ ├── components/ # reusable UI components
+│ ├── mock/ # mock data for Storybook & testing
+│ ├── pages/ # main page layouts
+│ ├── styles/ # global styles, theme, fonts
+│ ├── theme.ts # styled-components theme file
+│ ├── main.tsx # Vite entry point
+│ ├── App.tsx # root React component
+│ └── index.css # global resets
+├── .storybook/ # Storybook config
+├── package.json
+└── vite.config.ts
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+## ⚙️ Setup & Installation
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 1️⃣ Clone the repo
+```bash
+git clone https://github.com/devihor25/barber-ui.git
+cd barber-ui
+2️⃣ Install dependencies
+npm install
+💻 Run the project locally
+Start the React (Vite) app
+npm run dev
+▶️ Start Storybook
+npm run storybook
+🧩 Fonts
+This project uses the Enkle Font, included under:
+src/assets/fonts/
