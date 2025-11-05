@@ -41,8 +41,10 @@ barber-ui/
 ```bash
 git clone https://github.com/devihor25/barber-ui.git
 cd barber-ui
+create storybook
+npm create storybook@8.3
 2️⃣ Install dependencies
-npm install
+npm install --legacy-peer-deps 
 💻 Run the project locally
 Start the React (Vite) app
 npm run dev
