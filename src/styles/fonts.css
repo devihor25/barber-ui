@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Enkle";
+    src: url("/src/assets/fonts/Enkel-Thin.woff2") format("woff2"),
+         url("/src/assets/fonts/Enkel-Thin.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Enkle";
+    src: url("/src/assets/fonts/Enkel-Light.woff2") format("woff2"),
+         url("/src/assets/fonts/Enkel-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Enkle";
+    src: url("/src/assets/fonts/Enkel-Regular.woff2") format("woff2"),
+         url("/src/assets/fonts/Enkel-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Enkle";
+    src: url("/src/assets/fonts/Enkel-Medium.woff2") format("woff2"),
+         url("/src/assets/fonts/Enkel-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Enkle";
+    src: url("/src/assets/fonts/Enkel-SemiBold.woff2") format("woff2"),
+         url("/src/assets/fonts/Enkel-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Enkle";
+    src: url("/src/assets/fonts/Enkel-Bold.woff2") format("woff2"),
+         url("/src/assets/fonts/Enkel-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  @font-face {
+    font-family: "Enkle";
+    src: url("/src/assets/fonts/Enkel-Black.woff2") format("woff2"),
+         url("/src/assets/fonts/Enkel-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  /* Optional italic versions (remove if unused) */
+  @font-face {
+    font-family: "Enkle";
+    src: url("/src/assets/fonts/Enkel-RegularOblique.woff2") format("woff2"),
+         url("/src/assets/fonts/Enkel-RegularOblique.woff") format("woff");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+  }
+  

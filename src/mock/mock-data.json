@@ -1,0 +1,82 @@
+{
+  "services": [
+    {
+      "id": "1",
+      "title": "Skin Fade",
+      "addons": "7 add-ons available",
+      "description": "Smooth, seamless fade with a sharp transition from skin to hair.",
+      "duration": "40 mins",
+      "price": "$45"
+    },
+    {
+      "id": "2",
+      "title": "Buzz Cut",
+      "addons": "5 add-ons available",
+      "description": "Low-maintenance, clean buzz cut for a sharp everyday look.",
+      "duration": "20 mins",
+      "price": "$25"
+    },
+    {
+      "id": "3",
+      "title": "Deluxe Haircut",
+      "description": "Includes haircut, beard trim, and hot towel finish for a complete experience.",
+      "duration": "60 mins",
+      "price": "$60"
+    }
+  ],
+  "works": [
+    {
+      "id": "1",
+      "title": "my works",
+      "image": "img1.png"
+    },
+    {
+      "id": "2",
+      "title": "my works",
+      "image": "img2.png"
+    },
+    {
+      "id": "3",
+      "title": "my works",
+      "image": "img3.png"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "1",
+      "name": "Michael Rodriguez",
+      "avatar": "https://randomuser.me/api/portraits/men/12.jpg",
+      "date": "Nov 12th, 2024",
+      "comment": "Malik is a true artist! He gave me the best taper fade I’ve ever had— super clean and precise. He took his time to make sure every detail was perfect. My beard has never looked sharper, and I left the chair feeling fresh and confident. Highly recommend!"
+    },
+    {
+      "id": "2",
+      "name": "Jordan Lee",
+      "avatar": "https://randomuser.me/api/portraits/men/24.jpg",
+      "date": "Oct 28th, 2024",
+      "comment": "Absolutely incredible experience with Malik! From the moment I walked in, his professionalism and attention to detail were evident. I asked for a skin fade and beard trim, and he absolutely nailed it. The fade is seamless, perfectly blended, and the beard trim was sharp and clean—exactly what I wanted!"
+    }
+  ],
+  "faq": [
+    {
+      "id": "1",
+      "title": "1. How do I pay when booking?",
+      "description": "your card will be authorized to hold your spot but not charged until after your appointment."
+    },
+    {
+      "id": "2",
+      "title": "2. which payment methods do you accept?",
+      "description": "We accept cash, debit/credit cards, and digital payments."
+    },
+    {
+      "id": "3",
+      "title": "3. Do I need to add a card on file?",
+      "description": "no need for that"
+    },
+    {
+      "id": "4",
+      "title": "4. What if I cancel late or miss my cut?",
+      "description": "we can reschedule anytime"
+    }
+  ]
+}
