@@ -1,3 +1,30 @@
 {
-  "buildCommand": "npm install --legacy-peer-deps && npm run build"
+  "version": 2,
+  "name": "barber-ui",
+  "builds": [
+    {
+      "src": "vite.config.ts",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
+    },
+    {
+      "src": "storybook-static/**/*",
+      "use": "@vercel/static"
+    }
+  ],
+  "scripts": {
+    "preinstall": "npm install",
+    "build": "npm run build",
+    "postbuild": "npm run build-storybook"
+  },
+  "env": {
+    "NODE_ENV": "production"
+  },
+  "installCommand": "npm install",
+  "buildCommand": "npm run build && npm run build-storybook",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "ignoreCommand": "echo 'No ignored files'"
 }
