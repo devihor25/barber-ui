@@ -1,4 +1,4 @@
 {
-  "installCommand": "npm install --legacy-peer-deps && npm create storybook@8.3",
-  "buildCommand": "npm run build && npm run build-storybook",
+  "installCommand": "npm install --legacy-peer-deps",
+  "buildCommand": "npm run build",
 }
